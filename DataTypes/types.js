@@ -30,3 +30,31 @@ console.log(booleanform)
 // 1 ==> true and 0==> false
 // "" ==> false 
 // " asif" ==> true 
+
+
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++ Memory in JS ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Premitive( Stack)  and No Premitive( Heap)
+
+let myName = "Asif Saeed"
+let anOther=  myName
+ anOther = " Aqib Saeed"
+
+//console.log(myName)
+//console.log(anOther)
+
+// +++++HEAP+++++
+
+let user= {
+    name:"asif",
+    email:" rana@gmail.com",
+}
+let user1= user
+user1.email = "asif@gmail.com"
+// console.log(user)
+// console.log(user1)
+
