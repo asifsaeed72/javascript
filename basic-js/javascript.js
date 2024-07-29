@@ -12,3 +12,10 @@ console.log([name,id])
 // =======
 
 console.log( typeof name)
+
+
+
+// --------------------------------------------String ---------------------------------------
+const name = "Asif"
+let age =  25
+console.log("my name is  "+ name + " my age ius "+ age)
